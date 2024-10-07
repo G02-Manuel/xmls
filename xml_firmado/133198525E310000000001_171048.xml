@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ECF>
+  <Encabezado>
+    <Version>1.0</Version>
+    <IdDoc>
+      <TipoeCF>31</TipoeCF>
+      <eNCF>E310000000001</eNCF>
+      <FechaVencimientoSecuencia>31-12-2025</FechaVencimientoSecuencia>
+      <IndicadorMontoGravado>0</IndicadorMontoGravado>
+      <TipoIngresos>01</TipoIngresos>
+      <TipoPago>1</TipoPago>
+      <TablaFormasPago>
+        <FormaDePago>
+          <FormaPago>1</FormaPago>
+          <MontoPago>7080.00</MontoPago>
+        </FormaDePago>
+      </TablaFormasPago>
+    </IdDoc>
+    <Emisor>
+      <RNCEmisor>133198525</RNCEmisor>
+      <RazonSocialEmisor>DOCUMENTOS ELECTRONICOS DE 02</RazonSocialEmisor>
+      <NombreComercial>DOCUMENTOS ELECTRONICOS DE 02</NombreComercial>
+      <DireccionEmisor>AVE. ISABEL AGUIAR NO. 269, ZONA INDUSTRIAL DE HERRERA</DireccionEmisor>
+      <Municipio>010101</Municipio>
+      <Provincia>010000</Provincia>
+      <TablaTelefonoEmisor>
+        <TelefonoEmisor>809-472-7676</TelefonoEmisor>
+        <TelefonoEmisor>809-491-1918</TelefonoEmisor>
+      </TablaTelefonoEmisor>
+      <CorreoEmisor>DOCUMENTOSELECTRONICOSDE0612345678969789+9000000000000000000000000000001@123.COM</CorreoEmisor>
+      <WebSite>www.facturaelectronica.com</WebSite>
+      <CodigoVendedor>AA0000000100000000010000000002000000000300000000050000000006</CodigoVendedor>
+      <NumeroFacturaInterna>123456789016</NumeroFacturaInterna>
+      <NumeroPedidoInterno>123456789016</NumeroPedidoInterno>
+      <ZonaVenta>NORT</ZonaVenta>
+      <FechaEmision>01-04-2020</FechaEmision>
+    </Emisor>
+    <Comprador>
+      <RNCComprador>131880681</RNCComprador>
+      <RazonSocialComprador>DOCUMENTOS ELECTRONICOS DE 03</RazonSocialComprador>
+      <ContactoComprador>MARCOS LATIPLOL</ContactoComprador>
+      <CorreoComprador>MARCOSLATIPLOL@KKKK.COM</CorreoComprador>
+      <DireccionComprador>CALLE JACINTO DE LA CONCHA FELIZ ESQUINA 27 DE FEBRERO,FRENTE A DOMINO</DireccionComprador>
+      <MunicipioComprador>010100</MunicipioComprador>
+      <ProvinciaComprador>010000</ProvinciaComprador>
+      <FechaEntrega>10-10-2020</FechaEntrega>
+      <FechaOrdenCompra>10-11-2018</FechaOrdenCompra>
+      <NumeroOrdenCompra>4500352238</NumeroOrdenCompra>
+      <CodigoInternoComprador>10633440</CodigoInternoComprador>
+    </Comprador>
+    <InformacionesAdicionales>
+      <NumeroContenedor>8019289</NumeroContenedor>
+      <NumeroReferencia>1447</NumeroReferencia>
+    </InformacionesAdicionales>
+    <Totales>
+      <MontoGravadoTotal>6000.00</MontoGravadoTotal>
+      <MontoGravadoI1>6000.00</MontoGravadoI1>
+      <ITBIS1>18</ITBIS1>
+      <TotalITBIS>1080.00</TotalITBIS>
+      <TotalITBIS1>1080.00</TotalITBIS1>
+      <MontoTotal>7080.00</MontoTotal>
+    </Totales>
+  </Encabezado>
+  <DetallesItems>
+    <Item>
+      <NumeroLinea>1</NumeroLinea>
+      <IndicadorFacturacion>1</IndicadorFacturacion>
+      <NombreItem>ASW DTU</NombreItem>
+      <IndicadorBienoServicio>1</IndicadorBienoServicio>
+      <CantidadItem>15.00</CantidadItem>
+      <UnidadMedida>31</UnidadMedida>
+      <PrecioUnitarioItem>400.00</PrecioUnitarioItem>
+      <MontoItem>6000.00</MontoItem>
+    </Item>
+  </DetallesItems>
+  <FechaHoraFirma>10-07-2024 16:56:49</FechaHoraFirma>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>tDe0uhtXHHUV425bV2Jd7Eman6f0fYAddcIPC79lQ8A=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>cxspcDyd3c/++Kdy/2vfhBaOgoEElPobfrdGw0QFP1Kg+XDf5Qr3+BZwRuex8Gj/qHcFJ8y+KEsmoMm4JFlc0lOL08NzZvWORvjtMstjYFi4oXqGr9eaUD3RHxL40wGYYEaOVwnbFZGXn9T2oSkK+QM0DFfZQjnpqI2tk/amf6Ut3X7F1wd5kVvjp2MHcOaFwJWkYZhY1RaZF64eWrAQ4wvUy1iCJC9YnFz9ba12V7/e2bRo8xIl1WGJc2ag6imQK5mHzUsKWsQGRVq1COMuO23FmC3aCwB+FvlD35/936PVYxbLLLxRnFwykqKZoBWRUYuTjaVGoyy8Sf9kG+V8pg==</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>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</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+</ECF>
