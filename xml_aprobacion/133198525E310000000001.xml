@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ACECF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+  <DetalleAprobacionComercial>
+    <Version>1.0</Version>
+    <RNCEmisor>131880681</RNCEmisor>
+    <eNCF>E310000000001</eNCF>
+    <FechaEmision>01-04-2020</FechaEmision>
+    <MontoTotal>7080.00</MontoTotal>
+    <RNCComprador>133198525</RNCComprador>
+    <Estado>1</Estado>
+    <FechaHoraAprobacionComercial>16-10-2024 21:36:52</FechaHoraAprobacionComercial>
+  </DetalleAprobacionComercial>
+ </ACECF>
