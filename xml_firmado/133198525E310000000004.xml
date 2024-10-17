@@ -4,9 +4,9 @@
     <Version>1.0</Version>
     <IdDoc>
       <TipoeCF>31</TipoeCF>
-      <eNCF>E310000000002</eNCF>
+      <eNCF>E310000000004</eNCF>
       <FechaVencimientoSecuencia>31-12-2025</FechaVencimientoSecuencia>
-      <IndicadorMontoGravado>0</IndicadorMontoGravado>
+      <IndicadorMontoGravado>1</IndicadorMontoGravado>
       <TipoIngresos>01</TipoIngresos>
       <TipoPago>1</TipoPago>
     </IdDoc>
@@ -15,7 +15,7 @@
       <RazonSocialEmisor>DOCUMENTOS ELECTRONICOS DE 02</RazonSocialEmisor>
       <NombreComercial>DOCUMENTOS ELECTRONICOS DE 02</NombreComercial>
       <DireccionEmisor>AVE. ISABEL AGUIAR NO. 269, ZONA INDUSTRIAL DE HERRERA</DireccionEmisor>
-      <Municipio>010100</Municipio>
+      <Municipio>010101</Municipio>
       <Provincia>010000</Provincia>
       <TablaTelefonoEmisor>
         <TelefonoEmisor>809-472-7676</TelefonoEmisor>
@@ -26,7 +26,7 @@
       <CodigoVendedor>AA0000000100000000010000000002000000000300000000050000000006</CodigoVendedor>
       <NumeroFacturaInterna>123456789016</NumeroFacturaInterna>
       <NumeroPedidoInterno>123456789016</NumeroPedidoInterno>
-      <ZonaVenta>NORTE</ZonaVenta>
+      <ZonaVenta>NORT</ZonaVenta>
       <FechaEmision>01-04-2020</FechaEmision>
     </Emisor>
     <Comprador>
@@ -42,58 +42,72 @@
       <NumeroOrdenCompra>4500352238</NumeroOrdenCompra>
       <CodigoInternoComprador>10633440</CodigoInternoComprador>
     </Comprador>
+    <InformacionesAdicionales>
+      <NumeroContenedor>8019289</NumeroContenedor>
+      <NumeroReferencia>1447</NumeroReferencia>
+    </InformacionesAdicionales>
     <Totales>
-      <MontoGravadoTotal>3230.00</MontoGravadoTotal>
-      <MontoGravadoI1>3230.00</MontoGravadoI1>
+      <MontoGravadoTotal>15548.04</MontoGravadoTotal>
+      <MontoGravadoI1>12363.56</MontoGravadoI1>
+      <MontoGravadoI2>3184.48</MontoGravadoI2>
       <ITBIS1>18</ITBIS1>
-      <TotalITBIS>713.04</TotalITBIS>
-      <TotalITBIS1>713.04</TotalITBIS1>
-      <MontoImpuestoAdicional>731.32</MontoImpuestoAdicional>
-      <ImpuestosAdicionales>
-        <ImpuestoAdicional>
-          <TipoImpuesto>006</TipoImpuesto>
-          <TasaImpuestoAdicional>633.85</TasaImpuestoAdicional>
-          <MontoImpuestoSelectivoConsumoEspecifico>540.04</MontoImpuestoSelectivoConsumoEspecifico>
-        </ImpuestoAdicional>
-        <ImpuestoAdicional>
-          <TipoImpuesto>023</TipoImpuesto>
-          <TasaImpuestoAdicional>10</TasaImpuestoAdicional>
-          <MontoImpuestoSelectivoConsumoAdvalorem>191.28</MontoImpuestoSelectivoConsumoAdvalorem>
-        </ImpuestoAdicional>
-      </ImpuestosAdicionales>
-      <MontoTotal>4674.35</MontoTotal>
+      <ITBIS2>16</ITBIS2>
+      <TotalITBIS>2734.96</TotalITBIS>
+      <TotalITBIS1>2225.44</TotalITBIS1>
+      <TotalITBIS2>509.52</TotalITBIS2>
+      <MontoTotal>18283.00</MontoTotal>
     </Totales>
   </Encabezado>
   <DetallesItems>
     <Item>
       <NumeroLinea>1</NumeroLinea>
       <IndicadorFacturacion>1</IndicadorFacturacion>
-      <NombreItem>PTE. CJ 24/12OZ</NombreItem>
+      <NombreItem>MESAS INDUSTRIALES</NombreItem>
       <IndicadorBienoServicio>1</IndicadorBienoServicio>
-      <CantidadItem>2.00</CantidadItem>
-      <UnidadMedida>6</UnidadMedida>
-      <CantidadReferencia>24</CantidadReferencia>
-      <UnidadReferencia>5</UnidadReferencia>
-      <TablaSubcantidad>
-        <SubcantidadItem>
-          <Subcantidad>0.355</Subcantidad>
-          <CodigoSubcantidad>24</CodigoSubcantidad>
-        </SubcantidadItem>
-      </TablaSubcantidad>
-      <GradosAlcohol>5.00</GradosAlcohol>
-      <PrecioUnitarioReferencia>65.00</PrecioUnitarioReferencia>
-      <PrecioUnitarioItem>1615.00</PrecioUnitarioItem>
-      <TablaImpuestoAdicional>
-        <ImpuestoAdicional>
-          <TipoImpuesto>006</TipoImpuesto>
-        </ImpuestoAdicional>
-        <ImpuestoAdicional>
-          <TipoImpuesto>023</TipoImpuesto>
-        </ImpuestoAdicional>
-      </TablaImpuestoAdicional>
-      <MontoItem>3230.00</MontoItem>
+      <CantidadItem>50.00</CantidadItem>
+      <UnidadMedida>43</UnidadMedida>
+      <PrecioUnitarioItem>220.00</PrecioUnitarioItem>
+      <MontoItem>11000.00</MontoItem>
+    </Item>
+    <Item>
+      <NumeroLinea>2</NumeroLinea>
+      <IndicadorFacturacion>1</IndicadorFacturacion>
+      <NombreItem>JARRAS ACERO INOXIDABLE</NombreItem>
+      <IndicadorBienoServicio>1</IndicadorBienoServicio>
+      <CantidadItem>45.00</CantidadItem>
+      <UnidadMedida>43</UnidadMedida>
+      <PrecioUnitarioItem>85.00</PrecioUnitarioItem>
+      <MontoItem>3825.00</MontoItem>
+    </Item>
+    <Item>
+      <NumeroLinea>3</NumeroLinea>
+      <IndicadorFacturacion>2</IndicadorFacturacion>
+      <NombreItem>YOGURT</NombreItem>
+      <IndicadorBienoServicio>1</IndicadorBienoServicio>
+      <CantidadItem>56.00</CantidadItem>
+      <UnidadMedida>43</UnidadMedida>
+      <PrecioUnitarioItem>67.00</PrecioUnitarioItem>
+      <MontoItem>3752.00</MontoItem>
     </Item>
   </DetallesItems>
+  <DescuentosORecargos>
+    <DescuentoORecargo>
+      <NumeroLinea>1</NumeroLinea>
+      <TipoAjuste>D</TipoAjuste>
+      <DescripcionDescuentooRecargo>N</DescripcionDescuentooRecargo>
+      <TipoValor>$</TipoValor>
+      <MontoDescuentooRecargo>200.00</MontoDescuentooRecargo>
+      <IndicadorFacturacionDescuentooRecargo>1</IndicadorFacturacionDescuentooRecargo>
+    </DescuentoORecargo>
+    <DescuentoORecargo>
+      <NumeroLinea>2</NumeroLinea>
+      <TipoAjuste>D</TipoAjuste>
+      <DescripcionDescuentooRecargo>D</DescripcionDescuentooRecargo>
+      <TipoValor>$</TipoValor>
+      <MontoDescuentooRecargo>50.00</MontoDescuentooRecargo>
+      <IndicadorFacturacionDescuentooRecargo>2</IndicadorFacturacionDescuentooRecargo>
+    </DescuentoORecargo>
+  </DescuentosORecargos>
   <FechaHoraFirma>01-04-2020 20:15:50</FechaHoraFirma>
   <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
     <SignedInfo>
@@ -104,10 +118,10 @@
           <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
         </Transforms>
         <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-        <DigestValue>PzWoU9e2X3BLz9F8tx/ihl5eJm9QFzlwrApn8GBBwiY=</DigestValue>
+        <DigestValue>DkCLhcRLIAmok2scW/L/6kQ+9xR7P1XkMF+M1MJ/ao0=</DigestValue>
       </Reference>
     </SignedInfo>
-    <SignatureValue>QGFxytk193wXlm8bxPKDcag3IMCd0PsLPkyIfYdEZb5oYuKCcr+o1hV35nDy8TXWtqq1q+Z3bkb4uBukP7ox92bMusFr/HcGYp0rgLuY8fpdIqC8FpqvlJ5ldlBjXH/zM3hJ4f2C2WATixqOkMHffy9dmyv9Sdcp5DYuCeVe4k5SvA86mSfuBWP9IzYXge6WnHtBUvGemonODxJH3L8kLJp0Vq+n2tzWBRt3TwGtYSX+cgjRlIsD3yjVNpekymRDUPZR9nNXS6wgxqff1QooHL1LbkwyEwAwaPHBPSo3p7SZAs7s08N9W04oM4maCBlmxVy2+vYXgKIhSOohWhluMQ==</SignatureValue>
+    <SignatureValue>HtWPTtNW2y2HpNjmzSimV4JhapxZ5nkRP1rHIruMEVOlhPsn4QVbpNTOZ/oO9vxukaC4+RQSbu35kr7Ey28php+oOPMe7OVIWJYKggjcuS0SQH0cZk7NbhFHyKmNliu0kDmTOiwaVWideQQFB4q3s1Uw8Tw+ILLGvkpahYGlz9QdkhmI0x22HAfPKWKVQGFO2x+N5cYYZih6Ec9GepoCXE2PpMZOzAP6ozCreH9h1nDHmmMBrLlVtaKn10LnEg7fXBuGqsGYB+Q611dkYy+Q1l3FJNHh2poll3JdPe1ser3z5F9KJtR4Dm5tnxPj31vm10gLBxpsGeR/3uuRCYHQYw==</SignatureValue>
     <KeyInfo>
       <X509Data>
         <X509Certificate>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</X509Certificate>
