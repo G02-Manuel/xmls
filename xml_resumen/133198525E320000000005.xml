@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RFCE>
+  <Encabezado>
+    <Version>1.0</Version>
+    <IdDoc>
+      <TipoeCF>32</TipoeCF>
+      <eNCF>E320000000005</eNCF>
+      <TipoIngresos>01</TipoIngresos>
+      <TipoPago>1</TipoPago>
+      <TablaFormasPago>
+        <FormaDePago>
+          <FormaPago>1</FormaPago>
+          <MontoPago>118.00</MontoPago>
+        </FormaDePago>
+      </TablaFormasPago>
+    </IdDoc>
+    <Emisor>
+      <RNCEmisor>133198525</RNCEmisor>
+      <RazonSocialEmisor>OPEN GEEKS LAB SRL</RazonSocialEmisor>
+      <FechaEmision>10-10-2024</FechaEmision>
+    </Emisor>
+    <Totales>
+      <MontoGravadoTotal>100.00</MontoGravadoTotal>
+      <MontoGravadoI1>100.00</MontoGravadoI1>
+      <TotalITBIS>18.00</TotalITBIS>
+      <TotalITBIS1>18.00</TotalITBIS1>
+      <MontoTotal>118.00</MontoTotal>
+    </Totales>
+    <CodigoSeguridadeCF>XXXXXX</CodigoSeguridadeCF>
+  </Encabezado>
+ </RFCE>
