@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ECF>
   <Encabezado>
     <Version>1.0</Version>
@@ -65,5 +65,5 @@
       <MontoItem>10000.00</MontoItem>
     </Item>
   </DetallesItems>
-  <FechaHoraFirma>01-04-2020 16:56:49</FechaHoraFirma>
+  <FechaHoraFirma>01-04-2020 20:15:50</FechaHoraFirma>
   </ECF>

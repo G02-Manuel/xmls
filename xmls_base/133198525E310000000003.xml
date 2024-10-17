@@ -4,7 +4,7 @@
     <Version>1.0</Version>
     <IdDoc>
       <TipoeCF>31</TipoeCF>
-      <eNCF>E310000000002</eNCF>
+      <eNCF>E310000000003</eNCF>
       <FechaVencimientoSecuencia>31-12-2025</FechaVencimientoSecuencia>
       <IndicadorMontoGravado>0</IndicadorMontoGravado>
       <TipoIngresos>01</TipoIngresos>
@@ -43,56 +43,64 @@
       <CodigoInternoComprador>10633440</CodigoInternoComprador>
     </Comprador>
     <Totales>
-      <MontoGravadoTotal>3230.00</MontoGravadoTotal>
-      <MontoGravadoI1>3230.00</MontoGravadoI1>
+      <MontoGravadoTotal>118464.21</MontoGravadoTotal>
+      <MontoGravadoI1>118464.21</MontoGravadoI1>
       <ITBIS1>18</ITBIS1>
-      <TotalITBIS>713.04</TotalITBIS>
-      <TotalITBIS1>713.04</TotalITBIS1>
-      <MontoImpuestoAdicional>731.32</MontoImpuestoAdicional>
+      <TotalITBIS>21323.56</TotalITBIS>
+      <TotalITBIS1>21323.56</TotalITBIS1>
+      <MontoImpuestoAdicional>14215.71</MontoImpuestoAdicional>
       <ImpuestosAdicionales>
         <ImpuestoAdicional>
-          <TipoImpuesto>006</TipoImpuesto>
-          <TasaImpuestoAdicional>633.85</TasaImpuestoAdicional>
-          <MontoImpuestoSelectivoConsumoEspecifico>540.04</MontoImpuestoSelectivoConsumoEspecifico>
+          <TipoImpuesto>002</TipoImpuesto>
+          <TasaImpuestoAdicional>2</TasaImpuestoAdicional>
+          <OtrosImpuestosAdicionales>2369.28</OtrosImpuestosAdicionales>
         </ImpuestoAdicional>
         <ImpuestoAdicional>
-          <TipoImpuesto>023</TipoImpuesto>
+          <TipoImpuesto>004</TipoImpuesto>
           <TasaImpuestoAdicional>10</TasaImpuestoAdicional>
-          <MontoImpuestoSelectivoConsumoAdvalorem>191.28</MontoImpuestoSelectivoConsumoAdvalorem>
+          <OtrosImpuestosAdicionales>11846.42</OtrosImpuestosAdicionales>
         </ImpuestoAdicional>
       </ImpuestosAdicionales>
-      <MontoTotal>4674.35</MontoTotal>
+      <MontoTotal>154003.47</MontoTotal>
     </Totales>
   </Encabezado>
   <DetallesItems>
     <Item>
       <NumeroLinea>1</NumeroLinea>
       <IndicadorFacturacion>1</IndicadorFacturacion>
-      <NombreItem>PTE. CJ 24/12OZ</NombreItem>
-      <IndicadorBienoServicio>1</IndicadorBienoServicio>
-      <CantidadItem>2.00</CantidadItem>
-      <UnidadMedida>6</UnidadMedida>
-      <CantidadReferencia>24</CantidadReferencia>
-      <UnidadReferencia>5</UnidadReferencia>
-      <TablaSubcantidad>
-        <SubcantidadItem>
-          <Subcantidad>0.355</Subcantidad>
-          <CodigoSubcantidad>24</CodigoSubcantidad>
-        </SubcantidadItem>
-      </TablaSubcantidad>
-      <GradosAlcohol>5.00</GradosAlcohol>
-      <PrecioUnitarioReferencia>65.00</PrecioUnitarioReferencia>
-      <PrecioUnitarioItem>1615.00</PrecioUnitarioItem>
+      <NombreItem>Renta Total</NombreItem>
+      <IndicadorBienoServicio>2</IndicadorBienoServicio>
+      <CantidadItem>1.00</CantidadItem>
+      <UnidadMedida>43</UnidadMedida>
+      <PrecioUnitarioItem>107766.57</PrecioUnitarioItem>
       <TablaImpuestoAdicional>
         <ImpuestoAdicional>
-          <TipoImpuesto>006</TipoImpuesto>
+          <TipoImpuesto>002</TipoImpuesto>
         </ImpuestoAdicional>
         <ImpuestoAdicional>
-          <TipoImpuesto>023</TipoImpuesto>
+          <TipoImpuesto>004</TipoImpuesto>
         </ImpuestoAdicional>
       </TablaImpuestoAdicional>
-      <MontoItem>3230.00</MontoItem>
+      <MontoItem>107766.57</MontoItem>
+    </Item>
+    <Item>
+      <NumeroLinea>2</NumeroLinea>
+      <IndicadorFacturacion>1</IndicadorFacturacion>
+      <NombreItem>Uso total</NombreItem>
+      <IndicadorBienoServicio>2</IndicadorBienoServicio>
+      <CantidadItem>1.00</CantidadItem>
+      <UnidadMedida>43</UnidadMedida>
+      <PrecioUnitarioItem>10697.64</PrecioUnitarioItem>
+      <TablaImpuestoAdicional>
+        <ImpuestoAdicional>
+          <TipoImpuesto>002</TipoImpuesto>
+        </ImpuestoAdicional>
+        <ImpuestoAdicional>
+          <TipoImpuesto>004</TipoImpuesto>
+        </ImpuestoAdicional>
+      </TablaImpuestoAdicional>
+      <MontoItem>10697.64</MontoItem>
     </Item>
   </DetallesItems>
-  <FechaHoraFirma>01-04-2020 20:15:50</FechaHoraFirma>
+   <FechaHoraFirma>01-04-2020 20:15:50</FechaHoraFirma>
 </ECF>
