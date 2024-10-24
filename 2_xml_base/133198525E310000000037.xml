@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ECF>
+  <Encabezado>
+    <Version>1.0</Version>
+    <IdDoc>
+      <TipoeCF>31</TipoeCF>
+      <eNCF>E310000000037</eNCF>
+      <FechaVencimientoSecuencia>31-12-2025</FechaVencimientoSecuencia>
+      <IndicadorMontoGravado>0</IndicadorMontoGravado>
+      <TipoIngresos>01</TipoIngresos>
+      <TipoPago>1</TipoPago>
+      <TablaFormasPago>
+        <FormaDePago>
+          <FormaPago>1</FormaPago>
+          <MontoPago>17700.00</MontoPago>
+        </FormaDePago>
+      </TablaFormasPago>
+    </IdDoc>
+    <Emisor>
+      <RNCEmisor>133198525</RNCEmisor>
+      <RazonSocialEmisor>OPEN GEEKS LAB SRL</RazonSocialEmisor>
+      <NombreComercial>OPEN GEEKS LAB</NombreComercial>
+      <DireccionEmisor>AVE. 27 DE FEBRERO No. 123456789, D. N, RD.</DireccionEmisor>
+      <FechaEmision>22-10-2024</FechaEmision>
+    </Emisor>
+    <Comprador>
+      <RNCComprador>131880681</RNCComprador>
+      <RazonSocialComprador>CLIENTE PRUEBA</RazonSocialComprador>
+    </Comprador>
+    <Totales>
+      <MontoGravadoTotal>100.00</MontoGravadoTotal>
+      <MontoGravadoI1>100.00</MontoGravadoI1>
+      <ITBIS1>18</ITBIS1>
+      <TotalITBIS>18.00</TotalITBIS>
+      <TotalITBIS1>18.00</TotalITBIS1>
+      <MontoTotal>118.00</MontoTotal>
+    </Totales>
+  </Encabezado>
+  <DetallesItems>
+    <Item>
+      <NumeroLinea>1</NumeroLinea>
+      <IndicadorFacturacion>1</IndicadorFacturacion>
+      <NombreItem>HP All-in-three 114</NombreItem>
+      <IndicadorBienoServicio>1</IndicadorBienoServicio>
+      <CantidadItem>1.00</CantidadItem>
+      <UnidadMedida>15</UnidadMedida>
+      <PrecioUnitarioItem>100.00</PrecioUnitarioItem>
+      <MontoItem>100.00</MontoItem>
+    </Item>
+  </DetallesItems>
+  <FechaHoraFirma>23-10-2024 09:52:25</FechaHoraFirma>
+</ECF>

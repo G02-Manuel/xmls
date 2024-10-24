@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ECF>
+  <Encabezado>
+    <Version>1.0</Version>
+    <IdDoc>
+      <TipoeCF>44</TipoeCF>
+      <eNCF>E440000000010</eNCF>
+      <FechaVencimientoSecuencia>31-12-2025</FechaVencimientoSecuencia>
+      <TipoIngresos>01</TipoIngresos>
+      <TipoPago>1</TipoPago>
+    </IdDoc>
+    <Emisor>
+      <RNCEmisor>133198525</RNCEmisor>
+      <RazonSocialEmisor>OPEN GEEKS LAB SRL</RazonSocialEmisor>
+      <NombreComercial>OPEN GEEKS LAB</NombreComercial>
+      <DireccionEmisor>AVE. 27 DE FEBRERO No. 123456789, D. N, RD.</DireccionEmisor>
+      <FechaEmision>22-10-2024</FechaEmision>
+    </Emisor>
+    <Comprador>
+      <RNCComprador>131880681</RNCComprador>
+      <RazonSocialComprador>CLIENTE PRUEBA</RazonSocialComprador>
+    </Comprador>
+    <Totales>
+      <MontoExento>2000.00</MontoExento>
+      <MontoTotal>2000.00</MontoTotal>
+      <ValorPagar>2000.00</ValorPagar>
+    </Totales>
+  </Encabezado>
+  <DetallesItems>
+    <Item>
+      <NumeroLinea>1</NumeroLinea>
+      <IndicadorFacturacion>4</IndicadorFacturacion>
+      <NombreItem>ACEITE LUBRICANTE ECONOMICO</NombreItem>
+      <IndicadorBienoServicio>1</IndicadorBienoServicio>
+      <CantidadItem>10.00</CantidadItem>
+      <UnidadMedida>15</UnidadMedida>
+      <PrecioUnitarioItem>200.00</PrecioUnitarioItem>
+      <MontoItem>2000.00</MontoItem>
+    </Item>
+  </DetallesItems>
+  <FechaHoraFirma>23-10-2024 10:56:29</FechaHoraFirma>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>gXT8GH4ds5p/pPxJn59ENgotsYB7G9AaLJqzUpfBNGs=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>AUzDj0I5KVkdIVuxwtrtU1FmVXbfS31QmGSVUh6xA/cHe5P9vJ+2/dFNMuhli9pbM866Z9tKU+WmnmkZh8c5Z0lzBHvPHCbE6X5swbV7epc/tvO8lBxLF2OjETGH5OWJW2bgpvc0oMihvLWX1Cr8nI+6xcWVktmdOuKMaKWdkcg6FGYSmio7cEgC6Kl/R2RsgYz8ML/I/e2q29fc9I4AnVXBh789FBvgOZKqlSBh0+uaqVqu/kwUa97ina/djwYIjhZDXooWE4MJwzhOh39oHr8lXd8+6ktC62NNepuVBavt06XRUOD59pG78Hbfagc3DK9/1wlYr7JWeyJaaFGNMw==</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>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</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+</ECF>

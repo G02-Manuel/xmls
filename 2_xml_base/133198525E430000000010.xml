@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ECF>
+  <Encabezado>
+    <Version>1.0</Version>
+    <IdDoc>
+      <TipoeCF>43</TipoeCF>
+      <eNCF>E430000000010</eNCF>
+      <FechaVencimientoSecuencia>31-12-2025</FechaVencimientoSecuencia>
+    </IdDoc>
+    <Emisor>
+      <RNCEmisor>133198525</RNCEmisor>
+      <RazonSocialEmisor>OPEN GEEKS LAB SRL</RazonSocialEmisor>
+      <NombreComercial>OPEN GEEKS LAB</NombreComercial>
+      <DireccionEmisor>AVE. 27 DE FEBRERO No. 123456789, D. N, RD.</DireccionEmisor>
+      <FechaEmision>22-10-2024</FechaEmision>
+    </Emisor>
+    <Totales>
+      <MontoExento>1200.00</MontoExento>
+      <MontoTotal>1200.00</MontoTotal>
+    </Totales>
+  </Encabezado>
+  <DetallesItems>
+    <Item>
+      <NumeroLinea>1</NumeroLinea>
+      <IndicadorFacturacion>4</IndicadorFacturacion>
+      <NombreItem>Pago de Servicios de Mantenimiento</NombreItem>
+      <IndicadorBienoServicio>2</IndicadorBienoServicio>
+      <CantidadItem>4.00</CantidadItem>
+      <UnidadMedida>43</UnidadMedida>
+      <PrecioUnitarioItem>300.00</PrecioUnitarioItem>
+      <MontoItem>1200.00</MontoItem>
+    </Item>
+  </DetallesItems>
+  <FechaHoraFirma>23-10-2024 10:44:06</FechaHoraFirma>
+</ECF>
